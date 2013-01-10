@@ -17,3 +17,14 @@ Preferences:
 ________________________
 
 License
+
+________________________
+
+How to by Roberto
+
+Start the server using:
+$ rails server
+
+Modify the home page editing:
+app/controllers/home_controller.rb
+app/views/home/index.html.erb

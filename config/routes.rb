@@ -1,4 +1,6 @@
 Lana2::Application.routes.draw do
+  get "home/index"
+
   authenticated :user do
     root :to => 'home#index'
   end
